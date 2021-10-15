@@ -1,0 +1,32 @@
+h1 {
+  padding-bottom: 22px;
+  text-align: center;
+  border-bottom: 3px solid black;
+  margin-bottom: 0;
+}
+
+#grid {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+}
+
+.nav {
+  border-right: 3px solid black;
+}
+
+.article {
+  padding: 20px;
+}
+
+.comment-list {
+  font-size: 15px;
+  border-top: 1px solid black;
+}
+
+.comment-list-control {
+  margin-left: 20px;
+}
+
+.comment-create {
+  margin-left: 20px;
+}
